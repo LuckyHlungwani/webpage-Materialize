@@ -1,0 +1,54 @@
+{
+    "user" : {
+        "fullName": "LOUDRICK LUCKY HLUNGWANI",
+        "photo" : "./IMG-20240416-WA0136.jpg"
+    },
+   
+    "city" : {
+        "name" : "CAPE TOWN",
+        "photo" : "./City.jpg",
+        "description" : " Visiting Cape Town is an unforgettable journey into a world of captivating beauty, rich culture, and exhilarating experiences. Nestled between the majestic Table Mountain and the sparkling waters of the Atlantic Ocean, Cape Town offers a perfect blend of natural wonders, historical landmarks, and vibrant city life."
+    },
+    "foreignLanguage" : {
+        "language" :   "PORTUGUESE",
+        "description" : "Learning Portuguese is not just about acquiring a new skill; it's about embracing a vibrant language and culture that enriches your life personally, professionally, and intellectually. Whether you're drawn to its global reach, cultural richness, or personal growth opportunities, embarking on the journey to learn Portuguese is a rewarding endeavor.",
+        "phrases" : [{
+            "englishPhrase" : "How are you?",
+            "foreignLanguage" : "como vai você?"
+        },
+        {
+            "englishPhrase" : "I am doing well, thanks and how are you?",
+            "foreignLanguage" : "Estou bem, obrigado e você, como está?"
+        },
+    {
+            "englishPhrase" : "Tell us a story ",
+            "foreignLanguage" : "Conte-nos uma história"
+    }]
+    },
+    "qualification":{
+        "name":"Advanced Diploma in Financial Management",
+        "institution":"University of Johannesburg"
+        },
+    "favouriteSubjects" : [
+        {   "name":"Fullstack Development:",
+            "photo" : "./full stack.jpg",
+            "description" : " Full stack development is the process of developing both the frontend and backend of applications. Any application has a frontend (user-facing) component and a backend (database and logic) component. The frontend contains the user interface and code related to user interactions with the application."
+        
+        },
+        {   "name":"Engineering Business System:",
+            "photo" : "./systems-engineer.jpg",
+            "description" : " Engineering Business Systems in 4IR represent a comprehensive integration of cutting-edge technologies aimed at revolutionizing engineering and business processes, making them more efficient, flexible, and responsive to the rapidly changing industrial landscape"
+        },
+        {    "name":"Technologies BootCamp:",
+            "photo" : "./TECHNOLOGIES BOOTCAMP.jpg",
+            "description" : " Technologies Bootcamp in the 4IR is an accelerated educational program designed to provide individuals with the practical skills and knowledge necessary to thrive in a technologically advanced landscape, emphasizing hands-on learning and industry relevance."
+
+
+
+
+
+
+            
+        }
+    ]
+}
