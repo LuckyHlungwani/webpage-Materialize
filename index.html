@@ -18,12 +18,13 @@
   </div>
   <main class="content container">
     <div class="row valign-middle">
-      <div class="col m6 right-align">
-        <img src="{{user.photo}}" alt="profile picture" class="responsive-img" width="200px">
-      </div>
-      <div class="col m6">
+      <div class="col m4">
         <h5>{{user.fullName}}</h5>
       </div>
+      <div class="col m4 right-align">
+        <img src="{{user.photo}}" alt="profile picture" class="responsive-img" width="200px">
+      </div>
+      
     </div>
     <div class="divider"></div>
     <div class="row">
@@ -46,24 +47,26 @@
         <h5>{{foreignLanguage.language}}</h5>
         <p>{{foreignLanguage.description}}</p>
       </section>
-      <table border="4" class="striped responsive-table">
-        <thead>
-          <tr>
-            <th>English phrase</th>
-            <th>Portuguese phrase</th>
-          </tr>
-        </thead>
-        <tbody>
-          {{#with foreignLanguage}}
-          {{#each phrases}}
-          <tr>
-            <td>{{englishPhrase}}</td>
-            <td>{{foreignLanguage}}</td>
-          </tr>
-          {{/each}}
-          {{/with}}
-        </tbody>
-      </table>
+      <div class="table">
+        <table class="highlight">
+          <thead>
+            <tr>
+              <th>English phrase</th>
+              <th>Portuguese phrase</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{#with foreignLanguage}}
+            {{#each phrases}}
+            <tr>
+              <td>{{englishPhrase}}</td>
+              <td>{{foreignLanguage}}</td>
+            </tr>
+            {{/each}}
+            {{/with}}
+          </tbody>
+        </table>
+      </div>
     </div>
 
     <div class="divider"></div>
@@ -75,16 +78,21 @@
           <p>Advanced Diploma in Financial Management</p>
 
         </div>
-        {{#each favouriteSubjects}}
+        <div class="container">
+          {{#each favouriteSubjects}}
         <div class="col s12 m4 l4">
-          <div class="card-image col">
-            <img src="{{photo}}" alt="" class="responsive-img fixed-image">
-          </div>
-          <div class="card-content col">
+          <div class="col m5">
+            <!-- card-content col -->
             {{name}}{{description}}
           </div>
+          <div class="card-image col">
+            
+            <img src="{{photo}}" alt="" class="responsive-img fixed-image" width="200px">
+          </div>
+          
         </div>
         {{/each}}
+        </div>
       </div>
     </div>
   </main>
